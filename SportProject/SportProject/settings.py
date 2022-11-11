@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'SportProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'project',
+        'NAME': 'mydb',
         'USER': 'root',
         'PASSWORD': 'Admin_11',
         'HOST': 'localhost',
@@ -125,3 +125,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
