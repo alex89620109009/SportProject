@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e25b4174-b1fc-4a4f-9517-262262795287" name="Changes" comment="" />
+    <list default="true" id="e25b4174-b1fc-4a4f-9517-262262795287" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SportProject/Post/migrations/0002_alter_post_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SportProject/users/migrations/0002_alter_users_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SportProject/users/services/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportProject/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/SportProject/users/tests.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,5 +35,20 @@
       <updated>1668159438183</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SportProject/users/tests.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SportProject/users/tests.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
