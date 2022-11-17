@@ -1,5 +1,8 @@
-# from django.db import models
-
+from django.db import models
+from django.contrib.auth.models import User
+class UserLocation(User):
+    location = models.CharField(max_length=255)
+    USERNAME_FIELD = "location"
 # class Users(models.Model):
 #     idUser = models.AutoField(primary_key = True, unique=True)
 #     Login = models.CharField(max_length = 45, default="DefauldLogin", unique=True)
