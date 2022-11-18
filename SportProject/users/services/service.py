@@ -21,11 +21,10 @@ class UserQuery():
     def selectUser(login:str,Password:str): #Select from user
         UserData = authenticate(username = login, password = Password)
         if UserData is not None:
-            
             return "Authentication is successful"
         else: 
             return "User not found"
-        pass
+
 
     def changePassword(login:str, newPassword:str):
         user = User.objects.get(username = login)
