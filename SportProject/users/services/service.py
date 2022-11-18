@@ -14,7 +14,6 @@ class UserQuery():
        user.save()
        UserQuery.__makeUserFolder(login)
        UserQuery.__makeUserFiles(login)
-       
        return("Insert successfully")
      else:
          return("The password doesn't fit")
