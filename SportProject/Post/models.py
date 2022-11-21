@@ -10,4 +10,7 @@ class Post(models.Model):
     Description = models.CharField(max_length=255)
     First_Date_Post = models.DateTimeField(auto_now_add=True)
     Edit_Date_Post = models.DateTimeField(auto_now=True)
+
+    class Meta():
+         db_table = "Post"
     
