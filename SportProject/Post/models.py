@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 
+    
 class Post(models.Model):
     idPost = models.AutoField(primary_key=True, unique=True)
     Img = models.ImageField()
